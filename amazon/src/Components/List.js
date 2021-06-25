@@ -1,15 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
+// import { Button } from "react-bootsrap";
 
-class List extends Component {
-  render() {
-    return (
+function List() {
+  const addEvent = () => {
+    alert("hello am an event");
+  };
+
+  return (
+    <div>
       <ol>
         {this.props.plans.map((plan, index) => (
-          <li key={index}> {plan} </li>
+          <li> {plan} </li>
         ))}
       </ol>
-    );
-  }
+      {/* <Button variant="primary" onClick={addEvent}>
+        Primary
+      </Button> */}
+    </div>
+  );
 }
 
 export default List;

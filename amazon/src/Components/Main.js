@@ -3,11 +3,12 @@ import Title from "./Title";
 import List from "./List";
 // import User from "./User";
 import Students from "./Students";
+import "../App.css";
 
 class MainBody extends Component {
   state = {
     firstName: 100,
-    lastName: "Winnie",
+    lastName: "Vianne",
     age: 23,
     details: ["registered students", "has a laptop"],
     french: true,

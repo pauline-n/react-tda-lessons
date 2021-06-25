@@ -12,14 +12,14 @@ class User extends Component {
   }
 }
 
-User.propTypes = {
-  //   firstName: PropTypes.string,
-  firstName: PropTypes.oneOf(["Robin"]),
-  lastName: PropTypes.string,
-  age: PropTypes.number,
-  hobbies: PropTypes.array,
-  french: PropTypes.bool,
-  message: PropTypes.func,
-  car: PropTypes.object,
-};
+// User.propTypes = {
+//   //   firstName: PropTypes.string,
+//   firstName: PropTypes.oneOf(["Robin"]),
+//   lastName: PropTypes.string,
+//   age: PropTypes.number,
+//   hobbies: PropTypes.array,
+//   french: PropTypes.bool,
+//   message: PropTypes.func,
+//   car: PropTypes.object,
+// };
 export default User;
